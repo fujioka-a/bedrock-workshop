@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        "ms-python.isort",
+        "ms-python.pylint",
+        "ms-python.autopep8",
+        "paulshestakov.aws-step-functions-constructor",
+        "streetsidesoftware.code-spell-checker",
+        "janisdd.vscode-edit-csv",
+        "dbaeumer.vscode-eslint",
+        "ms-python.flake8",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "yzhang.markdown-all-in-one",
+        "zenclabs.previewjs",
+        "mechatroner.rainbow-csv",
+        "humao.rest-client",
+        "usernamehw.errorlens"
+    ]
+}
