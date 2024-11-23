@@ -16,7 +16,6 @@
         "yzhang.markdown-all-in-one",
         "zenclabs.previewjs",
         "mechatroner.rainbow-csv",
-        "humao.rest-client",
-        "usernamehw.errorlens"
+        "humao.rest-client"
     ]
 }

@@ -9,7 +9,7 @@ modelId = "anthropic.claude-3-haiku-20240307-v1:0"
 # プロンプトの設定
 user_prompt = "カレーの作り方を説明してください"
 
-bedrock = boto3.client('bedrock-runtime')
+bedrock = boto3.client('bedrock-runtime', region_name='us-west-2')
 body = json.dumps(
     {
         "anthropic_version": "bedrock-2023-05-31",
