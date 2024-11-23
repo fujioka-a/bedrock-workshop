@@ -44,3 +44,7 @@ python3 pdf2text.py {input filepath} > output/{output filename}.txt
 AWS_PROFILE={profile in credential} python3 -m streamlit run pdf-web.py --server.port 8510 --server.headless=true
 ```
 
+### stream chat
+```bash
+AWS_PROFILE={profile in credential} python3 -m streamlit run chat-web.py --server.port 8510 --server.headless=true
+```
