@@ -14,8 +14,13 @@ poetry install
 ```
 
 ## execution
+### chat
 以下を実行する
 ```bash
 AWS_PROFILE={profile in credential} py src/example.py
 ```
 
+### streamlit
+```bash
+AWS_PROFILE={profile in credential} python3** -m streamlit run basic-web.py --server.port 8510 --server.headless=true
+```
