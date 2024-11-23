@@ -5,3 +5,6 @@
 assets/
 
 .env
+
+__pycache__/
+src/output/

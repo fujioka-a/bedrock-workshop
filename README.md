@@ -36,3 +36,11 @@ AWS_PROFILE={profile in credential} python3 -m streamlit run rag-kb1.py --server
 
 AWS_PROFILE={profile in credential} python3 -m streamlit run advanced-rag.py --server.port 8510 --server.headless=true
 ```
+
+### pdf convert
+```bash
+python3 pdf2text.py {input filepath} > output/{output filename}.txt
+
+AWS_PROFILE={profile in credential} python3 -m streamlit run pdf-web.py --server.port 8510 --server.headless=true
+```
+
